@@ -6,4 +6,7 @@ h1.textContent = "This tag is created inside javascript!";
 
 div.appendChild(h1);
 
-document.body.firstChild(div);
+document.body.appendChild(div);
+
+
+document.getElementById('sp1').textContent = "Javascirpt text";
